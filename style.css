@@ -1,0 +1,99 @@
+*{
+  margin:0px;
+}
+body{
+background-image:url("http://wallpapercave.com/wp/vf79Uk2.jpg");
+  background-position:center;
+  background-attachment:fixed;
+  background-size:cover;
+  background-repeat:no-repeat;
+   font-family: "Montserrat", serif;
+  font-size:18px;
+  letter-spacing:2px;
+  }
+header{
+  background-color:white;
+  height:100px;
+    }
+header .menu{
+ list-style-type:none; 
+  display:flex;
+  justify-content:space-around;
+  padding:40px;
+}
+
+header li:hover{
+  border-bottom: 3px solid #61c5dc;
+  padding-bottom: 2px;
+  }
+main{
+  display:grid;
+  place-items:center;
+  margin-top:190px;
+  text-align:center;
+}
+.text1{
+  font-size:30px;
+  margin-bottom:30px;
+  }
+.text2{
+  font-size:70px;
+  margin-bottom:30px;
+  }
+.text3{
+  font-size:20px;
+  margin-bottom:30px;
+  }
+main .book{
+  border:2px solid black;
+  width:130px;
+  padding:10px;
+  margin-left:150px;
+  color: white;
+  background-color:black;
+  font-size:15px;
+}
+main .book:hover{
+  background:#61c5dc;
+  color:black;
+  transition:0.5s;
+}
+
+.main-content{
+  width:100%;
+    height:700px;
+  display:flex;
+  }
+
+.about-us-box{
+  width:50%;
+  height:100%;
+  background-color: white;
+  margin-top:
+    
+  }
+
+.about-us-text{
+  height:80%;
+  width:50%;
+  margin-left:30%;
+  margin-top: 10%;
+  
+}
+
+.para{
+  text-align:left;
+}
+
+.TITLE{
+  
+  font-size:40px;
+  margin-bottom:50px;
+}
+
+.imagebox{
+ width:50%;
+  height:100%;
+  background-image : url("https://static.vecteezy.com/system/resources/thumbnails/012/400/885/small_2x/tropical-sunset-beach-and-sky-background-as-exotic-summer-landscape-with-beach-swing-or-hammock-and-white-sand-and-calm-sea-beach-banner-paradise-island-beach-vacation-or-summer-holiday-destination-photo.jpg");
+  background-size:cover;
+}
